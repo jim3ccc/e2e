@@ -15,6 +15,5 @@ resource "aws_instance" "web" {
 
     tags = {
         Name = var.name
-        group = var.group
     }
 }
