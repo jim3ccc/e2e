@@ -3,11 +3,11 @@ variable "region" {
 }
 
 variable "profile" {
-    description = "default free tier region"
+    description = "aws IAM profile name"
 }
 
 variable "name" {
-    description = "friendly name for the  ec2 instance"
+    description = "friendly name for the ec2 instance"
 }
 
 variable "group" {
